@@ -6,7 +6,7 @@ embeddings = {
     'cat': [0.7, 0.6, 0.2],
     'turtle': [0.4, 0.3, 0.9],
     'bus': [-0.6, 0.7, -0.2],
-    'car': [-0.5, 0.8, -0.1],
+    'car': [-0.5, 0.5, -0.1],
     'airplane': [-0.3, 0.2, 0.9],
     'rock': [0.1, -0.8, -0.5]
 }
@@ -21,7 +21,7 @@ scatter = go.Scatter3d(
     mode='markers+text',
     text=words,
     marker=dict(size=10, color=list(range(len(words))), colorscale='Viridis'),
-    textfont=dict(size=24),
+    textfont=dict(size=48),
     textposition="top center"
 )
 
